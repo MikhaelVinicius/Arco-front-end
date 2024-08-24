@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #434343;
+    position: relative;
+  }
+  
+  .button-menu{
+    background-color: #434343;
+    position: absolute;
+    left: 5%;
+    
+  }
+
+  .lupa{
+    position: absolute;
+    left: 10%;
+    margin: 20px;
+  }
+
+  .search-bar {
+    padding: 5px;
+    width: 25%;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    position: absolute;
+    left: 13%;
+    margin-left: 45px;
+  }
+  
+  .navbar-menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin-right: 20px;
+  }
+  
+  .navbar-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+ .logo{
+  position: absolute;
+    left: 50%;
+    margin: 20px;
+ }
