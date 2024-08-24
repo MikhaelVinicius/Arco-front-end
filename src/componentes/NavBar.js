@@ -18,7 +18,7 @@ const NavBar = () => {
       <CgMenu className='button-menu'  size={"30px"} color='white' onClick={() => {alert("Funciona")}} ></CgMenu>
       <CgSearch size={"30px"}  color='white' className='lupa' onClick={toggleSearchBar}  />
       {showSearchBar && ( <input type="text" placeholder="Digite para pesquisar..." className="search-bar"/>)}
-      <CgRadioCheck size={"30px"}  color='white' className='logo' onClick={toggleSearchBar} /> 
+      <CgRadioCheck size={"30px"}  color='white' className='logo'/> 
       
     </nav>
   );

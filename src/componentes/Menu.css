@@ -1,0 +1,27 @@
+.container{
+    
+ background: linear-gradient(to bottom right, #EFD114, #FF6200);
+ 
+      
+      
+}
+
+.closeX{
+    margin: 20px;
+}
+
+li{
+    color: white;
+    font-size: 25px;
+    margin: 3%;
+    padding-bottom: 20px;
+    
+
+
+}
+
+a{
+    color: white;
+    
+}
+
